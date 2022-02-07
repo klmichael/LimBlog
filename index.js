@@ -8,7 +8,7 @@ const app = new express();
 const ejs = require('ejs');
 const { resourceUsage } = require('process');
 
-const fileUpload = require('express-fileUpload');  
+const fileUpload = require('express-fileupload');  
 const validateMiddleWare = require('./middleware/validateMiddleware');
 const expressSession = require('express-session');
 const authMiddleware = require('./middleware/authMiddleware');
